@@ -8,8 +8,11 @@
 #
 ##############################################################################
 #
-# $Id: start.txt,v 1.2 2004/03/07 12:05:56 southa Exp $
+# $Id: start.txt,v 1.1.1.1 2005/03/30 20:47:17 southa Exp $
 # $Log: start.txt,v $
+# Revision 1.1.1.1  2005/03/30 20:47:17  southa
+# Created
+#
 #
 
 # Change the paths here if you detach the application from its data directory
@@ -55,7 +58,7 @@ configset('TT_ROTATION_B_MIN', -0.03)
 configset('TT_ROTATION_B_MAX', 0.03)
 
 # Time (in milliseconds) between rotation changes
-configset('TT_ROTATION_CHANGE_MSEC', 20000)
+configset('TT_ROTATION_CHANGE_MSEC', 40000)
 
 # Time to move between one orientation and the next
 configset('TT_REALIGN_MSEC', 5000)
