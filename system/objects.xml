@@ -1,0 +1,337 @@
+<!--
+##############################################################################
+#
+# This file contains original work by Andy Southgate.  Contact details can be
+# found at http://www.mushware.com.  This file was placed in the Public
+# Domain by Andy Southgate and Mushware Limited in 2005.
+#
+# This software carries NO WARRANTY of any kind.
+#
+##############################################################################
+#
+# $Id$
+# $Log$
+-->
+<!-- contract definition -->
+<obj>(
+"keyhelp1"=<obj type="GameDialogue">
+<strings>(
+<obj type="GameStringSpec">
+<string type="GLString">
+<fontRef type="GLFontRef">
+<name>"font-system1"</name>
+<size>1.0</size>
+</fontRef>
+<value>"Key Controls"</value>
+<alignment>0</alignment>
+</string>
+<posicity type="MushPiePosicity">
+<angPos>((0,0,0,0),(0,0,0,0))</angPos>
+<angVel>((0,0,0,0),(0,0,0,0))</angVel>
+<pos>(0,0.3,0,0)</pos>
+<vel>(0,0,0,0)</vel>
+</posicity>
+<startColour>(1,0,1,0.1)</startColour>
+<midColour>(1,1,1,0.5)</midColour>
+<endColour>(1,1,1,0)</endColour>
+<startTime>0</startTime>
+<endTime>5000</endTime>
+<fadeTime>50</fadeTime>
+<startSize>0.01</startSize>
+<midSize>0.05</midSize>
+<endSize>0.01</endSize>
+</obj>,
+
+<obj type="GameStringSpec">
+<string type="GLString">
+<fontRef type="GLFontRef">
+<name>"font-system1"</name>
+<size>1.0</size>
+</fontRef>
+<value>"1  Change number of faces drawn"</value>
+<alignment>-1.0</alignment>
+</string>
+<posicity type="MushPiePosicity">
+<angPos>((0,0,0,0),(0,0,0,0))</angPos>
+<angVel>((0,0,0,0),(0,0,0,0))</angVel>
+<pos>(-0.48,0.20,0,0)</pos>
+<vel>(0,0,0,0)</vel>
+</posicity>
+<startColour>(1,1,1,0.1)</startColour>
+<midColour>(1,1,1,0.5)</midColour>
+<endColour>(1,1,1,0)</endColour>
+<startTime>0</startTime>
+<endTime>5000</endTime>
+<fadeTime>50</fadeTime>
+<startSize>0.01</startSize>
+<midSize>0.03</midSize>
+<endSize>0.01</endSize>
+</obj>,
+
+<obj type="GameStringSpec">
+<string type="GLString">
+<fontRef type="GLFontRef">
+<name>"font-system1"</name>
+<size>1.0</size>
+</fontRef>
+<value>"2  Outlines on/off"</value>
+<alignment>-1.0</alignment>
+</string>
+<posicity type="MushPiePosicity">
+<angPos>((0,0,0,0),(0,0,0,0))</angPos>
+<angVel>((0,0,0,0),(0,0,0,0))</angVel>
+<pos>(-0.48,0.16,0,0)</pos>
+<vel>(0,0,0,0)</vel>
+</posicity>
+<startColour>(1,1,1,0.1)</startColour>
+<midColour>(1,1,1,0.5)</midColour>
+<endColour>(1,1,1,0)</endColour>
+<startTime>0</startTime>
+<endTime>5000</endTime>
+<fadeTime>50</fadeTime>
+<startSize>0.01</startSize>
+<midSize>0.03</midSize>
+<endSize>0.01</endSize>
+</obj>,
+
+<obj type="GameStringSpec">
+<string type="GLString">
+<fontRef type="GLFontRef">
+<name>"font-system1"</name>
+<size>1.0</size>
+</fontRef>
+<value>"3  Facet textures on/off"</value>
+<alignment>-1.0</alignment>
+</string>
+<posicity type="MushPiePosicity">
+<angPos>((0,0,0,0),(0,0,0,0))</angPos>
+<angVel>((0,0,0,0),(0,0,0,0))</angVel>
+<pos>(-0.48,0.12,0,0)</pos>
+<vel>(0,0,0,0)</vel>
+</posicity>
+<startColour>(1,1,1,0.1)</startColour>
+<midColour>(1,1,1,0.5)</midColour>
+<endColour>(1,1,1,0)</endColour>
+<startTime>0</startTime>
+<endTime>5000</endTime>
+<fadeTime>50</fadeTime>
+<startSize>0.01</startSize>
+<midSize>0.03</midSize>
+<endSize>0.01</endSize>
+</obj>,
+
+<obj type="GameStringSpec">
+<string type="GLString">
+<fontRef type="GLFontRef">
+<name>"font-system1"</name>
+<size>1.0</size>
+</fontRef>
+<value>"4  Point textures on/off"</value>
+<alignment>-1.0</alignment>
+</string>
+<posicity type="MushPiePosicity">
+<angPos>((0,0,0,0),(0,0,0,0))</angPos>
+<angVel>((0,0,0,0),(0,0,0,0))</angVel>
+<pos>(-0.48,0.08,0,0)</pos>
+<vel>(0,0,0,0)</vel>
+</posicity>
+<startColour>(1,1,1,0.1)</startColour>
+<midColour>(1,1,1,0.5)</midColour>
+<endColour>(1,1,1,0)</endColour>
+<startTime>0</startTime>
+<endTime>5000</endTime>
+<fadeTime>50</fadeTime>
+<startSize>0.01</startSize>
+<midSize>0.03</midSize>
+<endSize>0.01</endSize>
+</obj>,
+
+<obj type="GameStringSpec">
+<string type="GLString">
+<fontRef type="GLFontRef">
+<name>"font-system1"</name>
+<size>1.0</size>
+</fontRef>
+<value>"5  Rotation planes on/off"</value>
+<alignment>-1.0</alignment>
+</string>
+<posicity type="MushPiePosicity">
+<angPos>((0,0,0,0),(0,0,0,0))</angPos>
+<angVel>((0,0,0,0),(0,0,0,0))</angVel>
+<pos>(-0.48,0.04,0,0)</pos>
+<vel>(0,0,0,0)</vel>
+</posicity>
+<startColour>(1,1,1,0.1)</startColour>
+<midColour>(1,1,1,0.5)</midColour>
+<endColour>(1,1,1,0)</endColour>
+<startTime>0</startTime>
+<endTime>5000</endTime>
+<fadeTime>50</fadeTime>
+<startSize>0.01</startSize>
+<midSize>0.03</midSize>
+<endSize>0.01</endSize>
+</obj>,
+
+<obj type="GameStringSpec">
+<string type="GLString">
+<fontRef type="GLFontRef">
+<name>"font-system1"</name>
+<size>1.0</size>
+</fontRef>
+<value>"6  Axis planes on/off"</value>
+<alignment>-1.0</alignment>
+</string>
+<posicity type="MushPiePosicity">
+<angPos>((0,0,0,0),(0,0,0,0))</angPos>
+<angVel>((0,0,0,0),(0,0,0,0))</angVel>
+<pos>(-0.48,0.00,0,0)</pos>
+<vel>(0,0,0,0)</vel>
+</posicity>
+<startColour>(1,1,1,0.1)</startColour>
+<midColour>(1,1,1,0.5)</midColour>
+<endColour>(1,1,1,0)</endColour>
+<startTime>0</startTime>
+<endTime>5000</endTime>
+<fadeTime>50</fadeTime>
+<startSize>0.01</startSize>
+<midSize>0.03</midSize>
+<endSize>0.01</endSize>
+</obj>,
+
+<obj type="GameStringSpec">
+<string type="GLString">
+<fontRef type="GLFontRef">
+<name>"font-system1"</name>
+<size>1.0</size>
+</fontRef>
+<value>"S  Stereoscopic view on/off"</value>
+<alignment>-1.0</alignment>
+</string>
+<posicity type="MushPiePosicity">
+<angPos>((0,0,0,0),(0,0,0,0))</angPos>
+<angVel>((0,0,0,0),(0,0,0,0))</angVel>
+<pos>(-0.48,-0.04,0,0)</pos>
+<vel>(0,0,0,0)</vel>
+</posicity>
+<startColour>(1,1,1,0.1)</startColour>
+<midColour>(1,1,1,0.5)</midColour>
+<endColour>(1,1,1,0)</endColour>
+<startTime>0</startTime>
+<endTime>5000</endTime>
+<fadeTime>50</fadeTime>
+<startSize>0.01</startSize>
+<midSize>0.03</midSize>
+<endSize>0.01</endSize>
+</obj>,
+
+<obj type="GameStringSpec">
+<string type="GLString">
+<fontRef type="GLFontRef">
+<name>"font-system1"</name>
+<size>1.0</size>
+</fontRef>
+<value>"M  Music on/off"</value>
+<alignment>-1.0</alignment>
+</string>
+<posicity type="MushPiePosicity">
+<angPos>((0,0,0,0),(0,0,0,0))</angPos>
+<angVel>((0,0,0,0),(0,0,0,0))</angVel>
+<pos>(-0.48,-0.08,0,0)</pos>
+<vel>(0,0,0,0)</vel>
+</posicity>
+<startColour>(1,1,1,0.1)</startColour>
+<midColour>(1,1,1,0.5)</midColour>
+<endColour>(1,1,1,0)</endColour>
+<startTime>0</startTime>
+<endTime>5000</endTime>
+<fadeTime>50</fadeTime>
+<startSize>0.01</startSize>
+<midSize>0.03</midSize>
+<endSize>0.01</endSize>
+</obj>,
+
+<obj type="GameStringSpec">
+<string type="GLString">
+<fontRef type="GLFontRef">
+<name>"font-system1"</name>
+<size>1.0</size>
+</fontRef>
+<value>"+- Change display resolution"</value>
+<alignment>-1.0</alignment>
+</string>
+<posicity type="MushPiePosicity">
+<angPos>((0,0,0,0),(0,0,0,0))</angPos>
+<angVel>((0,0,0,0),(0,0,0,0))</angVel>
+<pos>(-0.48,-0.12,0,0)</pos>
+<vel>(0,0,0,0)</vel>
+</posicity>
+<startColour>(1,1,1,0.1)</startColour>
+<midColour>(1,1,1,0.5)</midColour>
+<endColour>(1,1,1,0)</endColour>
+<startTime>0</startTime>
+<endTime>5000</endTime>
+<fadeTime>50</fadeTime>
+<startSize>0.01</startSize>
+<midSize>0.03</midSize>
+<endSize>0.01</endSize>
+</obj>,
+
+<obj type="GameStringSpec">
+<string type="GLString">
+<fontRef type="GLFontRef">
+<name>"font-system1"</name>
+<size>1.0</size>
+</fontRef>
+<value>"R  Enter registration code"</value>
+<alignment>-1.0</alignment>
+</string>
+<posicity type="MushPiePosicity">
+<angPos>((0,0,0,0),(0,0,0,0))</angPos>
+<angVel>((0,0,0,0),(0,0,0,0))</angVel>
+<pos>(-0.48,-0.16,0,0)</pos>
+<vel>(0,0,0,0)</vel>
+</posicity>
+<startColour>(1,1,1,0.1)</startColour>
+<midColour>(1,1,1,0.5)</midColour>
+<endColour>(1,1,1,0)</endColour>
+<startTime>0</startTime>
+<endTime>5000</endTime>
+<fadeTime>50</fadeTime>
+<startSize>0.01</startSize>
+<midSize>0.03</midSize>
+<endSize>0.01</endSize>
+</obj>,
+
+<obj type="GameStringSpec">
+<string type="GLString">
+<fontRef type="GLFontRef">
+<name>"font-system1"</name>
+<size>1.0</size>
+</fontRef>
+<value>"Esc Exit"</value>
+<alignment>-1.0</alignment>
+</string>
+<posicity type="MushPiePosicity">
+<angPos>((0,0,0,0),(0,0,0,0))</angPos>
+<angVel>((0,0,0,0),(0,0,0,0))</angVel>
+<pos>(-0.48,-0.24,0,0)</pos>
+<vel>(0,0,0,0)</vel>
+</posicity>
+<startColour>(1,1,1,0.1)</startColour>
+<midColour>(1,1,1,0.5)</midColour>
+<endColour>(1,1,1,0)</endColour>
+<startTime>0</startTime>
+<endTime>5000</endTime>
+<fadeTime>50</fadeTime>
+<startSize>0.01</startSize>
+<midSize>0.03</midSize>
+<endSize>0.01</endSize>
+</obj>
+)</strings>
+<sounds>()</sounds>
+<soundStreams>()</soundStreams>
+<killSound>""</killSound>
+<age>0</age>
+<expired>0</expired>
+</obj>
+)</obj>
