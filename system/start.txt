@@ -8,8 +8,11 @@
 #
 ##############################################################################
 #
-# $Id: start.txt,v 1.1.1.1 2005/03/30 20:47:17 southa Exp $
+# $Id: start.txt,v 1.2 2005/04/01 00:02:00 southa Exp $
 # $Log: start.txt,v $
+# Revision 1.2  2005/04/01 00:02:00  southa
+# Build tweaks
+#
 # Revision 1.1.1.1  2005/03/30 20:47:17  southa
 # Created
 #
@@ -27,6 +30,9 @@ configset("SYSTEM_PATH",$APPLPATH+"/system")
 
 # Find somewhere to save our files
 setsavepath(".tesseracttrainer", $HOME, $SYSTEM_PATH, "/tmp")
+
+# Set registration code file path
+configset("REG_FILENAME", $GLOBAL_SAVE_PATH+"/reg.xml")
 
 # Set configuration file path
 configset("CONFIG_FILENAME", $GLOBAL_SAVE_PATH+"/config.xml")
