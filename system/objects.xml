@@ -9,8 +9,11 @@
 #
 ##############################################################################
 #
-# $Id$
-# $Log$
+# $Id: objects.xml,v 1.1.1.1 2005/03/30 20:47:17 southa Exp $
+# $Log: objects.xml,v $
+# Revision 1.1.1.1  2005/03/30 20:47:17  southa
+# Created
+#
 -->
 <!-- contract definition -->
 <obj>(
@@ -28,18 +31,18 @@
 <posicity type="MushPiePosicity">
 <angPos>((0,0,0,0),(0,0,0,0))</angPos>
 <angVel>((0,0,0,0),(0,0,0,0))</angVel>
-<pos>(0,0.3,0,0)</pos>
+<pos>(0,0.28,0,0)</pos>
 <vel>(0,0,0,0)</vel>
 </posicity>
-<startColour>(1,0,1,0.1)</startColour>
+<startColour>(1,1,1,0.1)</startColour>
 <midColour>(1,1,1,0.5)</midColour>
 <endColour>(1,1,1,0)</endColour>
 <startTime>0</startTime>
 <endTime>5000</endTime>
 <fadeTime>50</fadeTime>
-<startSize>0.01</startSize>
-<midSize>0.05</midSize>
-<endSize>0.01</endSize>
+<startSize>0.04</startSize>
+<midSize>0.04</midSize>
+<endSize>0.04</endSize>
 </obj>,
 
 <obj type="GameStringSpec">
@@ -63,9 +66,9 @@
 <startTime>0</startTime>
 <endTime>5000</endTime>
 <fadeTime>50</fadeTime>
-<startSize>0.01</startSize>
+<startSize>0.03</startSize>
 <midSize>0.03</midSize>
-<endSize>0.01</endSize>
+<endSize>0.03</endSize>
 </obj>,
 
 <obj type="GameStringSpec">
@@ -89,9 +92,9 @@
 <startTime>0</startTime>
 <endTime>5000</endTime>
 <fadeTime>50</fadeTime>
-<startSize>0.01</startSize>
+<startSize>0.03</startSize>
 <midSize>0.03</midSize>
-<endSize>0.01</endSize>
+<endSize>0.03</endSize>
 </obj>,
 
 <obj type="GameStringSpec">
@@ -115,9 +118,9 @@
 <startTime>0</startTime>
 <endTime>5000</endTime>
 <fadeTime>50</fadeTime>
-<startSize>0.01</startSize>
+<startSize>0.03</startSize>
 <midSize>0.03</midSize>
-<endSize>0.01</endSize>
+<endSize>0.03</endSize>
 </obj>,
 
 <obj type="GameStringSpec">
@@ -141,9 +144,9 @@
 <startTime>0</startTime>
 <endTime>5000</endTime>
 <fadeTime>50</fadeTime>
-<startSize>0.01</startSize>
+<startSize>0.03</startSize>
 <midSize>0.03</midSize>
-<endSize>0.01</endSize>
+<endSize>0.03</endSize>
 </obj>,
 
 <obj type="GameStringSpec">
@@ -167,9 +170,9 @@
 <startTime>0</startTime>
 <endTime>5000</endTime>
 <fadeTime>50</fadeTime>
-<startSize>0.01</startSize>
+<startSize>0.03</startSize>
 <midSize>0.03</midSize>
-<endSize>0.01</endSize>
+<endSize>0.03</endSize>
 </obj>,
 
 <obj type="GameStringSpec">
@@ -193,9 +196,9 @@
 <startTime>0</startTime>
 <endTime>5000</endTime>
 <fadeTime>50</fadeTime>
-<startSize>0.01</startSize>
+<startSize>0.03</startSize>
 <midSize>0.03</midSize>
-<endSize>0.01</endSize>
+<endSize>0.03</endSize>
 </obj>,
 
 <obj type="GameStringSpec">
@@ -219,9 +222,9 @@
 <startTime>0</startTime>
 <endTime>5000</endTime>
 <fadeTime>50</fadeTime>
-<startSize>0.01</startSize>
+<startSize>0.03</startSize>
 <midSize>0.03</midSize>
-<endSize>0.01</endSize>
+<endSize>0.03</endSize>
 </obj>,
 
 <obj type="GameStringSpec">
@@ -245,9 +248,9 @@
 <startTime>0</startTime>
 <endTime>5000</endTime>
 <fadeTime>50</fadeTime>
-<startSize>0.01</startSize>
+<startSize>0.03</startSize>
 <midSize>0.03</midSize>
-<endSize>0.01</endSize>
+<endSize>0.03</endSize>
 </obj>,
 
 <obj type="GameStringSpec">
@@ -271,9 +274,9 @@
 <startTime>0</startTime>
 <endTime>5000</endTime>
 <fadeTime>50</fadeTime>
-<startSize>0.01</startSize>
+<startSize>0.03</startSize>
 <midSize>0.03</midSize>
-<endSize>0.01</endSize>
+<endSize>0.03</endSize>
 </obj>,
 
 <obj type="GameStringSpec">
@@ -297,9 +300,9 @@
 <startTime>0</startTime>
 <endTime>5000</endTime>
 <fadeTime>50</fadeTime>
-<startSize>0.01</startSize>
+<startSize>0.03</startSize>
 <midSize>0.03</midSize>
-<endSize>0.01</endSize>
+<endSize>0.03</endSize>
 </obj>,
 
 <obj type="GameStringSpec">
@@ -323,11 +326,228 @@
 <startTime>0</startTime>
 <endTime>5000</endTime>
 <fadeTime>50</fadeTime>
-<startSize>0.01</startSize>
+<startSize>0.03</startSize>
 <midSize>0.03</midSize>
-<endSize>0.01</endSize>
+<endSize>0.03</endSize>
 </obj>
 )</strings>
+<sounds>()</sounds>
+<soundStreams>()</soundStreams>
+<killSound>""</killSound>
+<age>0</age>
+<expired>0</expired>
+</obj>
+,
+"start1"=<obj type="GameDialogue">
+<strings>(
+<obj type="GameStringSpec">
+<string type="GLString">
+<fontRef type="GLFontRef">
+<name>"font-system1"</name>
+<size>1.0</size>
+</fontRef>
+<value>"Tesseract Trainer"</value>
+<alignment>0</alignment>
+</string>
+<posicity type="MushPiePosicity">
+<angPos>((0,0,0,0),(0,0,0,0))</angPos>
+<angVel>((0,0,0,0),(0,0,0,0))</angVel>
+<pos>(0,0.25,0,0)</pos>
+<vel>(0,0,0,0)</vel>
+</posicity>
+<startColour>(1,1,1,0)</startColour>
+<midColour>(1,1,1,0.5)</midColour>
+<endColour>(1,0,0,0)</endColour>
+<startTime>0</startTime>
+<endTime>400</endTime>
+<fadeTime>100</fadeTime>
+<startSize>0.04</startSize>
+<midSize>0.04</midSize>
+<endSize>0.10</endSize>
+</obj>,
+<obj type="GameStringSpec">
+<string type="GLString">
+<fontRef type="GLFontRef">
+<name>"font-system1"</name>
+<size>1.0</size>
+</fontRef>
+<value>"http://www.mushware.com/"</value>
+<alignment>0</alignment>
+</string>
+<posicity type="MushPiePosicity">
+<angPos>((0,0,0,0),(0,0,0,0))</angPos>
+<angVel>((0,0,0,0),(0,0,0,0))</angVel>
+<pos>(0,0.15,0,0)</pos>
+<vel>(0,0,0,0)</vel>
+</posicity>
+<startColour>(0.8,0.8,1,0)</startColour>
+<midColour>(0.8,0.8,1,0.5)</midColour>
+<endColour>(1,0,0,0)</endColour>
+<startTime>0</startTime>
+<endTime>400</endTime>
+<fadeTime>100</fadeTime>
+<startSize>0.02</startSize>
+<midSize>0.02</midSize>
+<endSize>0.02</endSize>
+</obj>,
+<obj type="GameStringSpec">
+<string type="GLString">
+<fontRef type="GLFontRef">
+<name>"font-system1"</name>
+<size>1.0</size>
+</fontRef>
+<value>"Press K for key control"</value>
+<alignment>0</alignment>
+</string>
+<posicity type="MushPiePosicity">
+<angPos>((0,0,0,0),(0,0,0,0))</angPos>
+<angVel>((0,0,0,0),(0,0,0,0))</angVel>
+<pos>(0,-0.07,0,0)</pos>
+<vel>(0,0,0,0)</vel>
+</posicity>
+<startColour>(1,1,1,0)</startColour>
+<midColour>(1,1,1,0.5)</midColour>
+<endColour>(1,0,0,0)</endColour>
+<startTime>0</startTime>
+<endTime>400</endTime>
+<fadeTime>100</fadeTime>
+<startSize>0.02</startSize>
+<midSize>0.02</midSize>
+<endSize>0.02</endSize>
+</obj>,
+<obj type="GameStringSpec">
+<string type="GLString">
+<fontRef type="GLFontRef">
+<name>"font-system1"</name>
+<size>1.0</size>
+</fontRef>
+<value>"(Esc to exit)"</value>
+<alignment>0</alignment>
+</string>
+<posicity type="MushPiePosicity">
+<angPos>((0,0,0,0),(0,0,0,0))</angPos>
+<angVel>((0,0,0,0),(0,0,0,0))</angVel>
+<pos>(0,-0.10,0,0)</pos>
+<vel>(0,0,0,0)</vel>
+</posicity>
+<startColour>(1,1,1,0)</startColour>
+<midColour>(1,1,1,0.5)</midColour>
+<endColour>(1,0,0,0)</endColour>
+<startTime>0</startTime>
+<endTime>400</endTime>
+<fadeTime>100</fadeTime>
+<startSize>0.02</startSize>
+<midSize>0.02</midSize>
+<endSize>0.02</endSize>
+</obj>)
+</strings>
+<sounds>()</sounds>
+<soundStreams>()</soundStreams>
+<killSound>""</killSound>
+<age>0</age>
+<expired>0</expired>
+</obj>
+,
+"registered1"=<obj type="GameDialogue">
+<strings>(
+<obj type="GameStringSpec">
+<string type="GLString">
+<fontRef type="GLFontRef">
+<name>"font-system1"</name>
+<size>1.0</size>
+</fontRef>
+<value>"Registered"</value>
+<alignment>1</alignment>
+</string>
+<posicity type="MushPiePosicity">
+<angPos>((0,0,0,0),(0,0,0,0))</angPos>
+<angVel>((0,0,0,0),(0,0,0,0))</angVel>
+<pos>(0.45,-0.30,0,0)</pos>
+<vel>(0,0,0,0)</vel>
+</posicity>
+<startColour>(1,1,1,0)</startColour>
+<midColour>(1,1,1,0.5)</midColour>
+<endColour>(1,1,1,0)</endColour>
+<startTime>0</startTime>
+<endTime>100</endTime>
+<fadeTime>25</fadeTime>
+<startSize>0.02</startSize>
+<midSize>0.02</midSize>
+<endSize>0.02</endSize>
+</obj>)
+</strings>
+<sounds>()</sounds>
+<soundStreams>()</soundStreams>
+<killSound>""</killSound>
+<age>0</age>
+<expired>0</expired>
+</obj>
+
+,
+"unregistered1"=<obj type="GameDialogue">
+<strings>(
+<obj type="GameStringSpec">
+<string type="GLString">
+<fontRef type="GLFontRef">
+<name>"font-system1"</name>
+<size>1.0</size>
+</fontRef>
+<value>"Unregistered"</value>
+<alignment>1</alignment>
+</string>
+<posicity type="MushPiePosicity">
+<angPos>((0,0,0,0),(0,0,0,0))</angPos>
+<angVel>((0,0,0,0),(0,0,0,0))</angVel>
+<pos>(0.45,-0.30,0,0)</pos>
+<vel>(0,0,0,0)</vel>
+</posicity>
+<startColour>(0.8,0.8,1,0.1)</startColour>
+<midColour>(1,1,1,0.5)</midColour>
+<endColour>(1,0.0,0.0,0)</endColour>
+<startTime>0</startTime>
+<endTime>1000</endTime>
+<fadeTime>100</fadeTime>
+<startSize>0.02</startSize>
+<midSize>0.02</midSize>
+<endSize>0.02</endSize>
+</obj>)
+</strings>
+<sounds>()</sounds>
+<soundStreams>()</soundStreams>
+<killSound>""</killSound>
+<age>0</age>
+<expired>0</expired>
+</obj>
+
+,
+"unregistered2"=<obj type="GameDialogue">
+<strings>(
+<obj type="GameStringSpec">
+<string type="GLString">
+<fontRef type="GLFontRef">
+<name>"font-system1"</name>
+<size>1.0</size>
+</fontRef>
+<value>"(Press R to register)"</value>
+<alignment>1</alignment>
+</string>
+<posicity type="MushPiePosicity">
+<angPos>((0,0,0,0),(0,0,0,0))</angPos>
+<angVel>((0,0,0,0),(0,0,0,0))</angVel>
+<pos>(0.45,-0.32,0,0)</pos>
+<vel>(0,0,0,0)</vel>
+</posicity>
+<startColour>(0.8,0.8,1,0.1)</startColour>
+<midColour>(0.8,0.8,1,0.5)</midColour>
+<endColour>(1,0.0,0.0,0)</endColour>
+<startTime>100</startTime>
+<endTime>1000</endTime>
+<fadeTime>100</fadeTime>
+<startSize>0.015</startSize>
+<midSize>0.015</midSize>
+<endSize>0.015</endSize>
+</obj>)
+</strings>
 <sounds>()</sounds>
 <soundStreams>()</soundStreams>
 <killSound>""</killSound>
