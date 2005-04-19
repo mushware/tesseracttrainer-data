@@ -9,20 +9,23 @@
 #
 ##############################################################################
 #
-# $Id: objects.xml,v 1.1.1.1 2005/03/30 20:47:17 southa Exp $
+# $Id: objects.xml,v 1.2 2005/04/11 23:31:36 southa Exp $
 # $Log: objects.xml,v $
+# Revision 1.2  2005/04/11 23:31:36  southa
+# Startup and registration screen
+#
 # Revision 1.1.1.1  2005/03/30 20:47:17  southa
 # Created
 #
 -->
-<!-- contract definition -->
+<!-- Dialogue definition -->
 <obj>(
 "keyhelp1"=<obj type="GameDialogue">
 <strings>(
 <obj type="GameStringSpec">
 <string type="GLString">
 <fontRef type="GLFontRef">
-<name>"font-system1"</name>
+<name>"font-mono1"</name>
 <size>1.0</size>
 </fontRef>
 <value>"Key Controls"</value>
@@ -48,7 +51,7 @@
 <obj type="GameStringSpec">
 <string type="GLString">
 <fontRef type="GLFontRef">
-<name>"font-system1"</name>
+<name>"font-mono1"</name>
 <size>1.0</size>
 </fontRef>
 <value>"1  Change number of faces drawn"</value>
@@ -74,7 +77,7 @@
 <obj type="GameStringSpec">
 <string type="GLString">
 <fontRef type="GLFontRef">
-<name>"font-system1"</name>
+<name>"font-mono1"</name>
 <size>1.0</size>
 </fontRef>
 <value>"2  Outlines on/off"</value>
@@ -100,7 +103,7 @@
 <obj type="GameStringSpec">
 <string type="GLString">
 <fontRef type="GLFontRef">
-<name>"font-system1"</name>
+<name>"font-mono1"</name>
 <size>1.0</size>
 </fontRef>
 <value>"3  Facet textures on/off"</value>
@@ -126,7 +129,7 @@
 <obj type="GameStringSpec">
 <string type="GLString">
 <fontRef type="GLFontRef">
-<name>"font-system1"</name>
+<name>"font-mono1"</name>
 <size>1.0</size>
 </fontRef>
 <value>"4  Point textures on/off"</value>
@@ -152,7 +155,7 @@
 <obj type="GameStringSpec">
 <string type="GLString">
 <fontRef type="GLFontRef">
-<name>"font-system1"</name>
+<name>"font-mono1"</name>
 <size>1.0</size>
 </fontRef>
 <value>"5  Rotation planes on/off"</value>
@@ -178,10 +181,10 @@
 <obj type="GameStringSpec">
 <string type="GLString">
 <fontRef type="GLFontRef">
-<name>"font-system1"</name>
+<name>"font-mono1"</name>
 <size>1.0</size>
 </fontRef>
-<value>"6  Axis planes on/off"</value>
+<value>"6  Primary planes on/off"</value>
 <alignment>-1.0</alignment>
 </string>
 <posicity type="MushPiePosicity">
@@ -204,7 +207,7 @@
 <obj type="GameStringSpec">
 <string type="GLString">
 <fontRef type="GLFontRef">
-<name>"font-system1"</name>
+<name>"font-mono1"</name>
 <size>1.0</size>
 </fontRef>
 <value>"S  Stereoscopic view on/off"</value>
@@ -230,7 +233,7 @@
 <obj type="GameStringSpec">
 <string type="GLString">
 <fontRef type="GLFontRef">
-<name>"font-system1"</name>
+<name>"font-mono1"</name>
 <size>1.0</size>
 </fontRef>
 <value>"M  Music on/off"</value>
@@ -256,7 +259,7 @@
 <obj type="GameStringSpec">
 <string type="GLString">
 <fontRef type="GLFontRef">
-<name>"font-system1"</name>
+<name>"font-mono1"</name>
 <size>1.0</size>
 </fontRef>
 <value>"+- Change display resolution"</value>
@@ -282,7 +285,7 @@
 <obj type="GameStringSpec">
 <string type="GLString">
 <fontRef type="GLFontRef">
-<name>"font-system1"</name>
+<name>"font-mono1"</name>
 <size>1.0</size>
 </fontRef>
 <value>"R  Enter registration code"</value>
@@ -308,7 +311,7 @@
 <obj type="GameStringSpec">
 <string type="GLString">
 <fontRef type="GLFontRef">
-<name>"font-system1"</name>
+<name>"font-mono1"</name>
 <size>1.0</size>
 </fontRef>
 <value>"Esc Exit"</value>
@@ -343,7 +346,7 @@
 <obj type="GameStringSpec">
 <string type="GLString">
 <fontRef type="GLFontRef">
-<name>"font-system1"</name>
+<name>"font-mono1"</name>
 <size>1.0</size>
 </fontRef>
 <value>"Tesseract Trainer"</value>
@@ -368,7 +371,7 @@
 <obj type="GameStringSpec">
 <string type="GLString">
 <fontRef type="GLFontRef">
-<name>"font-system1"</name>
+<name>"font-mono1"</name>
 <size>1.0</size>
 </fontRef>
 <value>"http://www.mushware.com/"</value>
@@ -393,7 +396,7 @@
 <obj type="GameStringSpec">
 <string type="GLString">
 <fontRef type="GLFontRef">
-<name>"font-system1"</name>
+<name>"font-mono1"</name>
 <size>1.0</size>
 </fontRef>
 <value>"Press K for key control"</value>
@@ -418,7 +421,7 @@
 <obj type="GameStringSpec">
 <string type="GLString">
 <fontRef type="GLFontRef">
-<name>"font-system1"</name>
+<name>"font-mono1"</name>
 <size>1.0</size>
 </fontRef>
 <value>"(Esc to exit)"</value>
@@ -453,7 +456,7 @@
 <obj type="GameStringSpec">
 <string type="GLString">
 <fontRef type="GLFontRef">
-<name>"font-system1"</name>
+<name>"font-mono1"</name>
 <size>1.0</size>
 </fontRef>
 <value>"Registered"</value>
@@ -489,7 +492,7 @@
 <obj type="GameStringSpec">
 <string type="GLString">
 <fontRef type="GLFontRef">
-<name>"font-system1"</name>
+<name>"font-mono1"</name>
 <size>1.0</size>
 </fontRef>
 <value>"Unregistered"</value>
@@ -525,7 +528,7 @@
 <obj type="GameStringSpec">
 <string type="GLString">
 <fontRef type="GLFontRef">
-<name>"font-system1"</name>
+<name>"font-mono1"</name>
 <size>1.0</size>
 </fontRef>
 <value>"(Press R to register)"</value>

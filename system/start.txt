@@ -8,8 +8,11 @@
 #
 ##############################################################################
 #
-# $Id: start.txt,v 1.2 2005/04/01 00:02:00 southa Exp $
+# $Id: start.txt,v 1.3 2005/04/10 00:09:19 southa Exp $
 # $Log: start.txt,v $
+# Revision 1.3  2005/04/10 00:09:19  southa
+# Registration
+#
 # Revision 1.2  2005/04/01 00:02:00  southa
 # Build tweaks
 #
@@ -45,6 +48,9 @@ configset('NET_DEFAULT_PORT', 9144)
 configset('WEB_DEFAULT_PORT', 7200)
 
 # Tesseract trainer configuraton values
+
+# Display mode (3 is 640x480)
+configset('TT_DISPLAY_MODE', '3')
 
 # Colours for each face
 configset('TT_ALPHA', '0.2')
@@ -82,7 +88,7 @@ configset('TT_FOG_END', 0.8)
 # OpenGL line width and point size.  Not all values will be supported
 # by your graphics card
 configset('TT_LINE_WIDTH', 1.0)
-configset('TT_POINT_SIZE', 4.0)
+configset('TT_POINT_SIZE', 2.0)
 
 # Various items which are rendered or not
 configset('TT_RENDER_FACES', 8)
@@ -93,9 +99,12 @@ configset('TT_RENDER_ROTATION_PLANES', 1)
 configset('TT_RENDER_BASIC_PLANES', 0)
 
 # Stereoscopic rendering
-configset('TT_RENDER_STEREO', 1)
+configset('TT_RENDER_STEREO', 0)
 configset('TT_STEREO_EYE_SEPARATION', 0.5)
 configset('TT_STEREO_IMAGE_SEPARATION', 0.5)
+
+# Whether to play music
+configset('TT_PLAY_MUSIC', 1)
 
 # Print OpenGL infomation
 # configset('TT_DUMP_MUSHGLV', 1)
@@ -103,18 +112,21 @@ configset('TT_STEREO_IMAGE_SEPARATION', 0.5)
 # Load the dialogues
 GameDialogueLoad($SYSTEM_PATH+'/objects.xml')
 
+soundstream('tt-music1',$GLOBAL_WAVES_PATH+'/game_7.mp3')
+
 # Mutate the application into the Tesseract Trainer
 tesseracttrainer
 
 # Add config elements - not used in this application
 configvalueadd('displaymode', 0, 0, 0)
-configstringadd('displayquality','medium', 'low=Low&medium=Medium&high=High')
+configstringadd('displayquality','high', 'low=Low&medium=Medium&high=High')
 configstringadd('displaylighting', 'dynamic', 'none=None&dynamic=Dynamic')
 
 # Load the system font
-loadfontmap('font-system1',$GLOBAL_PIXELS_PATH+'/font-mono1.tiff',8,12,337,768)
+loadfontmap('font-mono1',$GLOBAL_PIXELS_PATH+'/font-mono1.tiff',8,12,337,768)
 
 loadpixmap('plane-target1',$GLOBAL_PIXELS_PATH+'/plane-target1.tiff')
+
 
 
 
