@@ -8,8 +8,11 @@
 #
 ##############################################################################
 #
-# $Id: start.txt,v 1.5 2005/05/20 08:44:32 southa Exp $
+# $Id: start.txt,v 1.6 2005/05/20 10:26:24 southa Exp $
 # $Log: start.txt,v $
+# Revision 1.6  2005/05/20 10:26:24  southa
+# Release work
+#
 # Revision 1.5  2005/05/20 08:44:32  southa
 # Update
 #
@@ -81,7 +84,7 @@ configset('TT_REALIGN_MSEC', 5000)
 configset('TT_TEXTURE_POINTS', 5000)
 
 # Distance of object from camera
-configset('TT_OBJECT_DISTANCE', 6.0)
+configset('TT_OBJECT_DISTANCE', 4.5)
 
 # Fog start and end depths
 configset('TT_FOG_START', -0.8)
@@ -100,10 +103,10 @@ configset('TT_RENDER_FACE_POINTS', 1)
 configset('TT_RENDER_ROTATION_PLANES', 1)
 configset('TT_RENDER_BASIC_PLANES', 0)
 
-# Stereoscopic rendering
+# Stereoscopic rendering.  Distances are in fractions of the screen
 configset('TT_RENDER_STEREO', 0)
-configset('TT_STEREO_EYE_SEPARATION', 0.5)
-configset('TT_STEREO_IMAGE_SEPARATION', 0.5)
+configset('TT_STEREO_EYE_SEPARATION', 0.1)
+configset('TT_STEREO_IMAGE_SEPARATION', 0.25)
 
 # Whether to play music
 configset('TT_PLAY_MUSIC', 1)
