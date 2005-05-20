@@ -9,8 +9,11 @@
 #
 ##############################################################################
 #
-# $Id: objects.xml,v 1.2 2005/04/11 23:31:36 southa Exp $
+# $Id: objects.xml,v 1.3 2005/04/19 23:25:32 southa Exp $
 # $Log: objects.xml,v $
+# Revision 1.3  2005/04/19 23:25:32  southa
+# Mode switching and recognition
+#
 # Revision 1.2  2005/04/11 23:31:36  southa
 # Startup and registration screen
 #
@@ -132,7 +135,7 @@
 <name>"font-mono1"</name>
 <size>1.0</size>
 </fontRef>
-<value>"4  Point textures on/off"</value>
+<value>"4  Point textures off/on/size"</value>
 <alignment>-1.0</alignment>
 </string>
 <posicity type="MushPiePosicity">

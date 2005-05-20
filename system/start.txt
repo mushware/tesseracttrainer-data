@@ -8,8 +8,11 @@
 #
 ##############################################################################
 #
-# $Id: start.txt,v 1.4 2005/04/19 23:25:33 southa Exp $
+# $Id: start.txt,v 1.5 2005/05/20 08:44:32 southa Exp $
 # $Log: start.txt,v $
+# Revision 1.5  2005/05/20 08:44:32  southa
+# Update
+#
 # Revision 1.4  2005/04/19 23:25:33  southa
 # Mode switching and recognition
 #
@@ -34,7 +37,7 @@ configset("GLOBAL_PIXELS_PATH",$APPLPATH+"/pixels")
 configset("GLOBAL_WAVES_PATH",$APPLPATH+"/waves") 
 configset("SYSTEM_PATH",$APPLPATH+"/system")
 
-# Find somewhere to save our files
+# Find somewhere to save our files.  Directory name first, then paths to check
 setsavepath(".tesseracttrainer", $HOME, $SYSTEM_PATH, "/tmp")
 
 # Set registration code file path
@@ -45,10 +48,6 @@ configset("CONFIG_FILENAME", $GLOBAL_SAVE_PATH+"/config.xml")
 
 # Options for DISPLAY_QUALITY are low, medium or high
 configset("DISPLAY_QUALITY", "high")
-
-# Network setup
-configset('NET_DEFAULT_PORT', 9144)
-configset('WEB_DEFAULT_PORT', 7200)
 
 # Tesseract trainer configuraton values
 
@@ -79,7 +78,7 @@ configset('TT_ROTATION_CHANGE_MSEC', 40000)
 configset('TT_REALIGN_MSEC', 5000)
 
 # Number of dots in point textures
-configset('TT_TEXTURE_POINTS', 10000)
+configset('TT_TEXTURE_POINTS', 5000)
 
 # Distance of object from camera
 configset('TT_OBJECT_DISTANCE', 6.0)
@@ -91,7 +90,7 @@ configset('TT_FOG_END', 0.8)
 # OpenGL line width and point size.  Not all values will be supported
 # by your graphics card
 configset('TT_LINE_WIDTH', 1.0)
-configset('TT_POINT_SIZE', 2.0)
+configset('TT_POINT_SIZE', 1.0)
 
 # Various items which are rendered or not
 configset('TT_RENDER_FACES', 8)
@@ -129,8 +128,6 @@ configstringadd('displaylighting', 'dynamic', 'none=None&dynamic=Dynamic')
 loadfontmap('font-mono1',$GLOBAL_PIXELS_PATH+'/font-mono1.tiff',8,12,337,768)
 
 loadpixmap('plane-target1',$GLOBAL_PIXELS_PATH+'/plane-target1.tiff')
-
-
 
 
 
