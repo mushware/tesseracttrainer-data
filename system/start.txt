@@ -8,8 +8,11 @@
 #
 ##############################################################################
 #
-# $Id: start.txt,v 1.3 2005/04/10 00:09:19 southa Exp $
+# $Id: start.txt,v 1.4 2005/04/19 23:25:33 southa Exp $
 # $Log: start.txt,v $
+# Revision 1.4  2005/04/19 23:25:33  southa
+# Mode switching and recognition
+#
 # Revision 1.3  2005/04/10 00:09:19  southa
 # Registration
 #
@@ -112,7 +115,7 @@ configset('TT_PLAY_MUSIC', 1)
 # Load the dialogues
 GameDialogueLoad($SYSTEM_PATH+'/objects.xml')
 
-soundstream('tt-music1',$GLOBAL_WAVES_PATH+'/game_7.mp3')
+soundstream('tt-music1',$GLOBAL_WAVES_PATH+'/game_7.ogg')
 
 # Mutate the application into the Tesseract Trainer
 tesseracttrainer
