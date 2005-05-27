@@ -8,8 +8,11 @@
 #
 ##############################################################################
 #
-# $Id: start.txt,v 1.6 2005/05/20 10:26:24 southa Exp $
+# $Id: start.txt,v 1.7 2005/05/20 13:18:59 southa Exp $
 # $Log: start.txt,v $
+# Revision 1.7  2005/05/20 13:18:59  southa
+# Release work
+#
 # Revision 1.6  2005/05/20 10:26:24  southa
 # Release work
 #
@@ -131,8 +134,6 @@ configstringadd('displaylighting', 'dynamic', 'none=None&dynamic=Dynamic')
 loadfontmap('font-mono1',$GLOBAL_PIXELS_PATH+'/font-mono1.tiff',8,12,337,768)
 
 loadpixmap('plane-target1',$GLOBAL_PIXELS_PATH+'/plane-target1.tiff')
-
-
 
 
 
