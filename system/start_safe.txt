@@ -1,0 +1,15 @@
+##############################################################################
+#
+# This file contains original work by Andy Southgate.  Contact details can be
+# found at http://www.mushware.co.uk.  This file was placed in the Public
+# Domain by Andy Southgate and Mushware Limited in 2005.
+#
+# This software carries NO WARRANTY of any kind.
+#
+##############################################################################
+#
+# $Id: start.txt,v 1.8 2005/05/27 12:48:35 southa Exp $
+# $Log: start.txt,v $
+
+load('start.txt')
+configset('SAFE_MODE', 1)
