@@ -9,8 +9,11 @@
 #
 ##############################################################################
 #
-# $Id: objects.xml,v 1.3 2005/04/19 23:25:32 southa Exp $
+# $Id: objects.xml,v 1.4 2005/05/20 10:26:24 southa Exp $
 # $Log: objects.xml,v $
+# Revision 1.4  2005/05/20 10:26:24  southa
+# Release work
+#
 # Revision 1.3  2005/04/19 23:25:32  southa
 # Mode switching and recognition
 #
@@ -552,6 +555,42 @@
 <startSize>0.015</startSize>
 <midSize>0.015</midSize>
 <endSize>0.015</endSize>
+</obj>)
+</strings>
+<sounds>()</sounds>
+<soundStreams>()</soundStreams>
+<killSound>""</killSound>
+<age>0</age>
+<expired>0</expired>
+</obj>
+
+,
+"safemode1"=<obj type="GameDialogue">
+<strings>(
+<obj type="GameStringSpec">
+<string type="GLString">
+<fontRef type="GLFontRef">
+<name>"font-mono1"</name>
+<size>1.0</size>
+</fontRef>
+<value>"Recovery Mode"</value>
+<alignment>0</alignment>
+</string>
+<posicity type="MushPiePosicity">
+<angPos>((0,0,0,0),(0,0,0,0))</angPos>
+<angVel>((0,0,0,0),(0,0,0,0))</angVel>
+<pos>(0,0,0,0)</pos>
+<vel>(0,0,0,0)</vel>
+</posicity>
+<startColour>(1.0,0.8,0.8,0.5)</startColour>
+<midColour>(1.0,0.8,0.8,1.0)</midColour>
+<endColour>(1,0.0,0.0,0)</endColour>
+<startTime>50</startTime>
+<endTime>1000</endTime>
+<fadeTime>50</fadeTime>
+<startSize>0.03</startSize>
+<midSize>0.03</midSize>
+<endSize>0.03</endSize>
 </obj>)
 </strings>
 <sounds>()</sounds>
