@@ -8,8 +8,11 @@
 #
 ##############################################################################
 #
-# $Id: start.txt,v 1.8 2005/05/27 12:48:35 southa Exp $
+# $Id: start.txt,v 1.9 2005/06/09 00:04:57 southa Exp $
 # $Log: start.txt,v $
+# Revision 1.9  2005/06/09 00:04:57  southa
+# X11 tweaks
+#
 # Revision 1.8  2005/05/27 12:48:35  southa
 # Registration box tweaks
 #
@@ -126,7 +129,6 @@ configset('TT_PLAY_MUSIC', 1)
 # configset('X11_MODE_1', '(1680,1050)')
 # configset('X11_MODE_2', '(1920,1200)')
 # and so on, up to X11_MODE_9
- configset('X11_MODE_2', 'bollocks')
 
 # Load the dialogues
 GameDialogueLoad($SYSTEM_PATH+'/objects.xml')
