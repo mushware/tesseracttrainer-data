@@ -8,8 +8,11 @@
 #
 ##############################################################################
 #
-# $Id: start.txt,v 1.7 2005/05/20 13:18:59 southa Exp $
+# $Id: start.txt,v 1.8 2005/05/27 12:48:35 southa Exp $
 # $Log: start.txt,v $
+# Revision 1.8  2005/05/27 12:48:35  southa
+# Registration box tweaks
+#
 # Revision 1.7  2005/05/20 13:18:59  southa
 # Release work
 #
@@ -116,6 +119,14 @@ configset('TT_PLAY_MUSIC', 1)
 
 # Print OpenGL infomation
 # configset('TT_DUMP_MUSHGLV', 1)
+
+# Extra display mode definitions for X11
+# Uncomment these or add your own
+# configset('X11_MODE_0', '(960,600)')
+# configset('X11_MODE_1', '(1680,1050)')
+# configset('X11_MODE_2', '(1920,1200)')
+# and so on, up to X11_MODE_9
+ configset('X11_MODE_2', 'bollocks')
 
 # Load the dialogues
 GameDialogueLoad($SYSTEM_PATH+'/objects.xml')
