@@ -9,8 +9,11 @@
 #
 ##############################################################################
 #
-# $Id: objects.xml,v 1.4 2005/05/20 10:26:24 southa Exp $
+# $Id: objects.xml,v 1.5 2005/06/04 13:18:44 southa Exp $
 # $Log: objects.xml,v $
+# Revision 1.5  2005/06/04 13:18:44  southa
+# Updates for Mac OS Release 0.1.2
+#
 # Revision 1.4  2005/05/20 10:26:24  southa
 # Release work
 #
@@ -37,12 +40,12 @@
 <value>"Key Controls"</value>
 <alignment>0</alignment>
 </string>
-<posicity type="MushPiePosicity">
+<posticity type="MushPiePosicity">
 <angPos>((0,0,0,0),(0,0,0,0))</angPos>
 <angVel>((0,0,0,0),(0,0,0,0))</angVel>
 <pos>(0,0.28,0,0)</pos>
 <vel>(0,0,0,0)</vel>
-</posicity>
+</posticity>
 <startColour>(1,1,1,0.1)</startColour>
 <midColour>(1,1,1,0.5)</midColour>
 <endColour>(1,1,1,0)</endColour>
@@ -63,12 +66,12 @@
 <value>"1  Change number of faces drawn"</value>
 <alignment>-1.0</alignment>
 </string>
-<posicity type="MushPiePosicity">
+<posticity type="MushPiePosicity">
 <angPos>((0,0,0,0),(0,0,0,0))</angPos>
 <angVel>((0,0,0,0),(0,0,0,0))</angVel>
 <pos>(-0.48,0.20,0,0)</pos>
 <vel>(0,0,0,0)</vel>
-</posicity>
+</posticity>
 <startColour>(1,1,1,0.1)</startColour>
 <midColour>(1,1,1,0.5)</midColour>
 <endColour>(1,1,1,0)</endColour>
@@ -89,12 +92,12 @@
 <value>"2  Outlines on/off"</value>
 <alignment>-1.0</alignment>
 </string>
-<posicity type="MushPiePosicity">
+<posticity type="MushPiePosicity">
 <angPos>((0,0,0,0),(0,0,0,0))</angPos>
 <angVel>((0,0,0,0),(0,0,0,0))</angVel>
 <pos>(-0.48,0.16,0,0)</pos>
 <vel>(0,0,0,0)</vel>
-</posicity>
+</posticity>
 <startColour>(1,1,1,0.1)</startColour>
 <midColour>(1,1,1,0.5)</midColour>
 <endColour>(1,1,1,0)</endColour>
@@ -115,12 +118,12 @@
 <value>"3  Facet textures on/off"</value>
 <alignment>-1.0</alignment>
 </string>
-<posicity type="MushPiePosicity">
+<posticity type="MushPiePosicity">
 <angPos>((0,0,0,0),(0,0,0,0))</angPos>
 <angVel>((0,0,0,0),(0,0,0,0))</angVel>
 <pos>(-0.48,0.12,0,0)</pos>
 <vel>(0,0,0,0)</vel>
-</posicity>
+</posticity>
 <startColour>(1,1,1,0.1)</startColour>
 <midColour>(1,1,1,0.5)</midColour>
 <endColour>(1,1,1,0)</endColour>
@@ -141,12 +144,12 @@
 <value>"4  Point textures off/on/size"</value>
 <alignment>-1.0</alignment>
 </string>
-<posicity type="MushPiePosicity">
+<posticity type="MushPiePosicity">
 <angPos>((0,0,0,0),(0,0,0,0))</angPos>
 <angVel>((0,0,0,0),(0,0,0,0))</angVel>
 <pos>(-0.48,0.08,0,0)</pos>
 <vel>(0,0,0,0)</vel>
-</posicity>
+</posticity>
 <startColour>(1,1,1,0.1)</startColour>
 <midColour>(1,1,1,0.5)</midColour>
 <endColour>(1,1,1,0)</endColour>
@@ -167,12 +170,12 @@
 <value>"5  Rotation planes on/off"</value>
 <alignment>-1.0</alignment>
 </string>
-<posicity type="MushPiePosicity">
+<posticity type="MushPiePosicity">
 <angPos>((0,0,0,0),(0,0,0,0))</angPos>
 <angVel>((0,0,0,0),(0,0,0,0))</angVel>
 <pos>(-0.48,0.04,0,0)</pos>
 <vel>(0,0,0,0)</vel>
-</posicity>
+</posticity>
 <startColour>(1,1,1,0.1)</startColour>
 <midColour>(1,1,1,0.5)</midColour>
 <endColour>(1,1,1,0)</endColour>
@@ -193,12 +196,12 @@
 <value>"6  Primary planes on/off"</value>
 <alignment>-1.0</alignment>
 </string>
-<posicity type="MushPiePosicity">
+<posticity type="MushPiePosicity">
 <angPos>((0,0,0,0),(0,0,0,0))</angPos>
 <angVel>((0,0,0,0),(0,0,0,0))</angVel>
 <pos>(-0.48,0.00,0,0)</pos>
 <vel>(0,0,0,0)</vel>
-</posicity>
+</posticity>
 <startColour>(1,1,1,0.1)</startColour>
 <midColour>(1,1,1,0.5)</midColour>
 <endColour>(1,1,1,0)</endColour>
@@ -219,12 +222,12 @@
 <value>"S  Stereoscopic view on/off"</value>
 <alignment>-1.0</alignment>
 </string>
-<posicity type="MushPiePosicity">
+<posticity type="MushPiePosicity">
 <angPos>((0,0,0,0),(0,0,0,0))</angPos>
 <angVel>((0,0,0,0),(0,0,0,0))</angVel>
 <pos>(-0.48,-0.04,0,0)</pos>
 <vel>(0,0,0,0)</vel>
-</posicity>
+</posticity>
 <startColour>(1,1,1,0.1)</startColour>
 <midColour>(1,1,1,0.5)</midColour>
 <endColour>(1,1,1,0)</endColour>
@@ -245,12 +248,12 @@
 <value>"M  Music on/off"</value>
 <alignment>-1.0</alignment>
 </string>
-<posicity type="MushPiePosicity">
+<posticity type="MushPiePosicity">
 <angPos>((0,0,0,0),(0,0,0,0))</angPos>
 <angVel>((0,0,0,0),(0,0,0,0))</angVel>
 <pos>(-0.48,-0.08,0,0)</pos>
 <vel>(0,0,0,0)</vel>
-</posicity>
+</posticity>
 <startColour>(1,1,1,0.1)</startColour>
 <midColour>(1,1,1,0.5)</midColour>
 <endColour>(1,1,1,0)</endColour>
@@ -271,12 +274,12 @@
 <value>"+- Change display resolution"</value>
 <alignment>-1.0</alignment>
 </string>
-<posicity type="MushPiePosicity">
+<posticity type="MushPiePosicity">
 <angPos>((0,0,0,0),(0,0,0,0))</angPos>
 <angVel>((0,0,0,0),(0,0,0,0))</angVel>
 <pos>(-0.48,-0.12,0,0)</pos>
 <vel>(0,0,0,0)</vel>
-</posicity>
+</posticity>
 <startColour>(1,1,1,0.1)</startColour>
 <midColour>(1,1,1,0.5)</midColour>
 <endColour>(1,1,1,0)</endColour>
@@ -297,12 +300,12 @@
 <value>"R  Enter registration code"</value>
 <alignment>-1.0</alignment>
 </string>
-<posicity type="MushPiePosicity">
+<posticity type="MushPiePosicity">
 <angPos>((0,0,0,0),(0,0,0,0))</angPos>
 <angVel>((0,0,0,0),(0,0,0,0))</angVel>
 <pos>(-0.48,-0.16,0,0)</pos>
 <vel>(0,0,0,0)</vel>
-</posicity>
+</posticity>
 <startColour>(1,1,1,0.1)</startColour>
 <midColour>(1,1,1,0.5)</midColour>
 <endColour>(1,1,1,0)</endColour>
@@ -323,12 +326,12 @@
 <value>"Esc Exit"</value>
 <alignment>-1.0</alignment>
 </string>
-<posicity type="MushPiePosicity">
+<posticity type="MushPiePosicity">
 <angPos>((0,0,0,0),(0,0,0,0))</angPos>
 <angVel>((0,0,0,0),(0,0,0,0))</angVel>
 <pos>(-0.48,-0.24,0,0)</pos>
 <vel>(0,0,0,0)</vel>
-</posicity>
+</posticity>
 <startColour>(1,1,1,0.1)</startColour>
 <midColour>(1,1,1,0.5)</midColour>
 <endColour>(1,1,1,0)</endColour>
@@ -358,12 +361,12 @@
 <value>"Tesseract Trainer"</value>
 <alignment>0</alignment>
 </string>
-<posicity type="MushPiePosicity">
+<posticity type="MushPiePosicity">
 <angPos>((0,0,0,0),(0,0,0,0))</angPos>
 <angVel>((0,0,0,0),(0,0,0,0))</angVel>
 <pos>(0,0.25,0,0)</pos>
 <vel>(0,0,0,0)</vel>
-</posicity>
+</posticity>
 <startColour>(1,1,1,0)</startColour>
 <midColour>(1,1,1,0.5)</midColour>
 <endColour>(1,0,0,0)</endColour>
@@ -383,12 +386,12 @@
 <value>"http://www.mushware.com/"</value>
 <alignment>0</alignment>
 </string>
-<posicity type="MushPiePosicity">
+<posticity type="MushPiePosicity">
 <angPos>((0,0,0,0),(0,0,0,0))</angPos>
 <angVel>((0,0,0,0),(0,0,0,0))</angVel>
 <pos>(0,0.15,0,0)</pos>
 <vel>(0,0,0,0)</vel>
-</posicity>
+</posticity>
 <startColour>(0.8,0.8,1,0)</startColour>
 <midColour>(0.8,0.8,1,0.5)</midColour>
 <endColour>(1,0,0,0)</endColour>
@@ -408,12 +411,12 @@
 <value>"Press K for key control"</value>
 <alignment>0</alignment>
 </string>
-<posicity type="MushPiePosicity">
+<posticity type="MushPiePosicity">
 <angPos>((0,0,0,0),(0,0,0,0))</angPos>
 <angVel>((0,0,0,0),(0,0,0,0))</angVel>
 <pos>(0,-0.07,0,0)</pos>
 <vel>(0,0,0,0)</vel>
-</posicity>
+</posticity>
 <startColour>(1,1,1,0)</startColour>
 <midColour>(1,1,1,0.5)</midColour>
 <endColour>(1,0,0,0)</endColour>
@@ -433,12 +436,12 @@
 <value>"(Esc to exit)"</value>
 <alignment>0</alignment>
 </string>
-<posicity type="MushPiePosicity">
+<posticity type="MushPiePosicity">
 <angPos>((0,0,0,0),(0,0,0,0))</angPos>
 <angVel>((0,0,0,0),(0,0,0,0))</angVel>
 <pos>(0,-0.10,0,0)</pos>
 <vel>(0,0,0,0)</vel>
-</posicity>
+</posticity>
 <startColour>(1,1,1,0)</startColour>
 <midColour>(1,1,1,0.5)</midColour>
 <endColour>(1,0,0,0)</endColour>
@@ -468,12 +471,12 @@
 <value>"Registered"</value>
 <alignment>1</alignment>
 </string>
-<posicity type="MushPiePosicity">
+<posticity type="MushPiePosicity">
 <angPos>((0,0,0,0),(0,0,0,0))</angPos>
 <angVel>((0,0,0,0),(0,0,0,0))</angVel>
 <pos>(0.45,-0.30,0,0)</pos>
 <vel>(0,0,0,0)</vel>
-</posicity>
+</posticity>
 <startColour>(1,1,1,0)</startColour>
 <midColour>(1,1,1,0.5)</midColour>
 <endColour>(1,1,1,0)</endColour>
@@ -504,12 +507,12 @@
 <value>"Unregistered"</value>
 <alignment>1</alignment>
 </string>
-<posicity type="MushPiePosicity">
+<posticity type="MushPiePosicity">
 <angPos>((0,0,0,0),(0,0,0,0))</angPos>
 <angVel>((0,0,0,0),(0,0,0,0))</angVel>
 <pos>(0.45,-0.30,0,0)</pos>
 <vel>(0,0,0,0)</vel>
-</posicity>
+</posticity>
 <startColour>(0.8,0.8,1,0.1)</startColour>
 <midColour>(1,1,1,0.5)</midColour>
 <endColour>(1,0.0,0.0,0)</endColour>
@@ -540,12 +543,12 @@
 <value>"(Press R to register)"</value>
 <alignment>1</alignment>
 </string>
-<posicity type="MushPiePosicity">
+<posticity type="MushPiePosicity">
 <angPos>((0,0,0,0),(0,0,0,0))</angPos>
 <angVel>((0,0,0,0),(0,0,0,0))</angVel>
 <pos>(0.45,-0.32,0,0)</pos>
 <vel>(0,0,0,0)</vel>
-</posicity>
+</posticity>
 <startColour>(0.8,0.8,1,0.1)</startColour>
 <midColour>(0.8,0.8,1,0.5)</midColour>
 <endColour>(1,0.0,0.0,0)</endColour>
@@ -576,12 +579,12 @@
 <value>"Recovery Mode"</value>
 <alignment>0</alignment>
 </string>
-<posicity type="MushPiePosicity">
+<posticity type="MushPiePosicity">
 <angPos>((0,0,0,0),(0,0,0,0))</angPos>
 <angVel>((0,0,0,0),(0,0,0,0))</angVel>
 <pos>(0,0,0,0)</pos>
 <vel>(0,0,0,0)</vel>
-</posicity>
+</posticity>
 <startColour>(1.0,0.8,0.8,0.5)</startColour>
 <midColour>(1.0,0.8,0.8,1.0)</midColour>
 <endColour>(1,0.0,0.0,0)</endColour>
